@@ -1,0 +1,114 @@
+<!-- 
+    Program ini tidak untuk di copy untuk bisnis! 
+    Dibuat oleh : Rendy Alviana XII TAV 1 SMKN 3 Kuningan
+    Selesai pada : 09 Agustus 2026
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <p>Alarm Sekolah</p>
+        </div>
+        <div class="semua_jadwal_alarm">
+            <!-- SEMUA JADWAL ALARAM DISINI -->
+            <div class="jadwal_alarm">
+                <p class="label">Indo Raya</p>
+                <p class="waktu">06:30</p>
+                <p class="hari">Sen Sel Rab Kam Jum </p>
+                <input type="checkbox" id="checkboxInput_1" class="input_checkbox">
+                <label for="checkboxInput_1" class="toggleSwitch"></label>
+                <svg width="25px" height="25px" viewBox="0 0 24 24" fill="red">
+                    <path fill="none"
+                        d="m17.004 20-.001-12h-10v12h10.001zm-4.001-10h2v8h-2v-8zm-4 0h2v8h-2v-8zm0-6h6v2h-6z" />
+                    <path
+                        d="M5.003 20c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V8h2V6h-4V4c0-1.103-.897-2-2-2h-6c-1.103 0-2 .897-2 2v2h-4v2h2v12zm4-16h6v2h-6V4zm-1 4h9l.001 12H7.003V8h1z" />
+                    <path d="M9.003 10h2v8h-2zm4 0h2v8h-2z" />
+                </svg>
+            </div>
+
+        </div>
+        <button class="tombol_tambah_alarm">+</button>
+    </div>
+
+    <div class="modal">
+        <!-- MODAL DISINI -->
+        <div class="modal-detail header_modal_tambah_alarm">
+            <div class="modal-conten tambah_alarm">
+                <div class="header_modal">
+                    <svg fill="#000000" width="30px" height="30px" viewBox="0 0 24 24" class="tutup_modal_tambah_alarm">
+                        <path
+                            d="M13.414 12l4.95-4.95a1 1 0 0 0-1.414-1.414L12 10.586l-4.95-4.95A1 1 0 0 0 5.636 7.05l4.95 4.95-4.95 4.95a1 1 0 0 0 1.414 1.414l4.95-4.95 4.95 4.95a1 1 0 0 0 1.414-1.414z" />
+                    </svg>
+                    <p>Tambah Alarm</p>
+                    <svg fill="#000000" width="30px" height="30px" viewBox="0 0 24 24">
+                        <path
+                            d="M9.172 18.657a1 1 0 0 1-.707-.293l-5.657-5.657a1 1 0 0 1 1.414-1.414l4.95 4.95L19.778 5.636a1 1 0 0 1 1.414 1.414L9.879 18.364a1 1 0 0 1-.707.293z" />
+                    </svg>
+                </div>
+                <div class="main_modal">
+                    <div class="set_waktu">
+                        <div class="jam">
+                            <button class="tambah_jam">+</button>
+                            <d>00</d>
+                            <button class="kurang_jam">-</button>
+                        </div>
+                        <span>:</span>
+                        <div class="menit">
+                            <button class="tambah_menit">+</button>
+                            <div>00</div>
+                            <button class="kurang_menit">-</button>
+                        </div>
+                    </div>
+                    <div class="set_hari">
+                        <span>Sen</span>
+                        <span>Sel</span>
+                        <span>Rab</span>
+                        <span>Kam</span>
+                        <span>Jum</span>
+                        <span>Sab</span>
+                        <span>Min</span>
+                    </div>
+                    <hr>
+                    <div class="set_label">
+                        <h3>Label</h3>
+                        <p>Indo Raya</p>
+                    </div>
+                    <hr>
+                    <div class="set_nada_alarm">
+                        <h3>Nada Alarm</h3>
+                        <span>
+                            <button class="kurang_set_nada">-</button>
+                            <span>03</span>
+                            <button class="tambah_set_nada">+</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-detail header_modal_nama_alarm">
+            <div class="modal-conten nama_alarm">
+                <h3>Nama Alarm</h3>
+                <input type="text" placeholder="Masukan nama alarm" maxlength="11">
+                <div>
+                    <button>Batal</button>
+                    <button>Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

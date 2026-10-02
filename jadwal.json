@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Indo Raya",
+    "jam": 6,
+    "menit": 30,
+    "dering": 4,
+    "status": true,
+    "hari": 1
+  },
+  {
+    "label": "Indo",
+    "jam": 6,
+    "menit": 30,
+    "dering": 5,
+    "status": true,
+    "hari": 128
+  },
+  {
+    "label": "Istirahat",
+    "jam": 9,
+    "menit": 45,
+    "dering": 3,
+    "status": false,
+    "hari": 255
+  },
+  {
+    "label": "JP-1",
+    "jam": 12,
+    "menit": 30,
+    "dering": 3,
+    "status": true,
+    "hari": 254
+  },
+  {
+    "label": "Istirahat",
+    "jam": 9,
+    "menit": 4,
+    "dering": 1,
+    "status": true,
+    "hari": 34
+  },
+  {
+    "label": "Pulang",
+    "jam": 15,
+    "menit": 30,
+    "dering": 3,
+    "status": false,
+    "hari": 255
+  },
+  {
+    "label": "JP-1",
+    "jam": 12,
+    "menit": 30,
+    "dering": 3,
+    "status": true,
+    "hari": 255
+  }
+]
