@@ -75,8 +75,8 @@ button.tombol_tambah_alarm {
   transform: scale(0.95);
 }
 
-/* ==================== MODAL TAMBAH ALARM===================== */
-.modal-detail {
+/* ==================== MODAL ===================== */
+.latar_belakang_modal {
   position: fixed;
   display: flex;
   top: 0;
@@ -87,7 +87,6 @@ button.tombol_tambah_alarm {
 }
 
 .modal-conten {
-  width: fit-content;
   margin: auto;
   background-color: white;
   border-radius: 10px;
@@ -96,8 +95,15 @@ button.tombol_tambah_alarm {
   position: relative;
 }
 
-.header_modal_tambah_alarm {
+/* ============ MODAL TAMBAH ALARM ================ */
+.handler_modal_tambah_alarm {
   display: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.conten_tambah_alarm {
+  width: 300px;
 }
 
 .header_modal {

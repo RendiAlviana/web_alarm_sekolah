@@ -1,6 +1,6 @@
 // ============ MODAL TAMBAH ALARM =============
 document.querySelector(".tombol_tambah_alarm").addEventListener("click", () => {
-  document.querySelector(".header_modal_tambah_alarm").style.display = "flex";
+  document.querySelector(".handler_modal_tambah_alarm").style.display = "flex";
 });
 
 document.querySelector(".tutup_modal_tambah_alarm").addEventListener("click", () => {
