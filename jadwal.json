@@ -2,10 +2,10 @@
   {
     "label": "Indo Raya",
     "jam": 6,
-    "menit": 30,
+    "menit": 3,
     "dering": 4,
     "status": true,
-    "hari": 1
+    "hari": 85
   },
   {
     "label": "Indo",
@@ -13,7 +13,7 @@
     "menit": 30,
     "dering": 5,
     "status": true,
-    "hari": 128
+    "hari": 127
   },
   {
     "label": "Istirahat",
@@ -21,7 +21,7 @@
     "menit": 45,
     "dering": 3,
     "status": false,
-    "hari": 255
+    "hari": 98
   },
   {
     "label": "JP-1",
@@ -29,7 +29,7 @@
     "menit": 30,
     "dering": 3,
     "status": true,
-    "hari": 254
+    "hari": 127
   },
   {
     "label": "Istirahat",
@@ -45,7 +45,7 @@
     "menit": 30,
     "dering": 3,
     "status": false,
-    "hari": 255
+    "hari": 24
   },
   {
     "label": "JP-1",
@@ -53,6 +53,6 @@
     "menit": 30,
     "dering": 3,
     "status": true,
-    "hari": 255
+    "hari": 127
   }
 ]

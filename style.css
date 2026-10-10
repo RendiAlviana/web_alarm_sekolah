@@ -97,7 +97,6 @@ button.tombol_tambah_alarm {
 
 /* ============ MODAL TAMBAH ALARM ================ */
 .handler_modal_tambah_alarm {
-  display: none;
   font-size: 12px;
   padding: 10px;
 }
@@ -148,12 +147,16 @@ button.tombol_tambah_alarm {
 }
 .set_hari span {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   border-radius: 50%;
   border: solid 1px gray;
   font-size: 12px;
+}
+.set_hari span.hari_aktif {
+  background-color: #2093f0;
+  border: solid 1px black;
 }
 
 .set_label {
@@ -186,12 +189,11 @@ button.tombol_tambah_alarm {
 }
 
 /* ================ MODAL NAMA ALARM ============= */
-.header_modal_nama_alarm {
+.handler_modal_nama_alarm {
   display: none;
 }
 .modal-conten.nama_alarm {
   text-align: start;
-  /* display: none; */
 }
 .modal-conten.nama_alarm input {
   margin: 15px 0;
